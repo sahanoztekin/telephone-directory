@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100;400&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+button {
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  animation-name: float;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  display: block;
+  cursor: pointer;
+  padding: 0 16px;
+  transition: all 250ms;
+  box-shadow: 3px 4px 6px rgb(191 219 254);
+  margin: 10px auto;
+  color: #f4f5f7;
+  background: #2d8b3b;
+  border: 1px solid #3fa33f;
+
+}
+
+button:hover {
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.918) inset, #0059ff 0 0 0 2px;
+}
+
+input {
+  padding: 6px 12px;
+  margin: 3px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 4px;
+  font-size: 13px;
+  color: rgb(247, 248, 248);
+  font-family: 'Oswald', sans-serif;
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff, inset 4px 4px 8px rgba(2, 97, 250, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #303030;
+
+}
+
+input:hover {
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.918) inset, #0059ff 0 0 0 2px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: rgb(100, 153, 255);
+}
